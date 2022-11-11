@@ -20,6 +20,16 @@ body{
     border-radius: 15px;
     padding: 20px 25px 20px 30px;
 }
+.result-vanilla-1{
+    margin-bottom: 20px;
+}
+.result-vanilla-1 p{
+    margin: 10px auto;
+}
+.result-vanilla-2{}
+.result-vanilla-2 p{
+    margin: 8px auto;
+}
 
 
 
@@ -29,6 +39,7 @@ body{
     height: 50px;
     display: flex;
     margin: auto;
+    margin-top: 40px;
     align-items: center;
     justify-content: center;
     background-color: black;
