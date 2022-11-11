@@ -1,10 +1,12 @@
 const resultVanilla = document.getElementById("result-vanilla")
+const resultShow = document.getElementById("result-show")
 const backButton = document.querySelector(".back-button")
 
 
 const resultRecord = JSON.parse(localStorage.getItem("resultArr"))
 
 averageResult()
+show()
 
 function averageResult() {
     let heightArr = []
@@ -32,6 +34,13 @@ function average(arr) {
     }
     return added / arr.length;
   }
+
+
+
+function show(){
+  resultShow.innerHTML = `${resultRecord}`
+}
+
 
 
 
