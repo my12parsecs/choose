@@ -12,19 +12,11 @@ body{
 }
 
 
+
 main{
-    margin-top: 20vh;
+    margin-top: 15vh;
 }
 
-
-.option-split{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-.hidden{
-    visibility: hidden;
-}
 #start{
     width: 70px;
     height: 40px;
@@ -41,6 +33,17 @@ main{
 #start:hover{
     cursor: pointer;
 }
+
+
+.option-split{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hidden{
+    visibility: hidden;
+}
+
 
 .option{
     width: 40vw;
