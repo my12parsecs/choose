@@ -9,12 +9,17 @@ import {
   careerOptionSokei,
   careerOptionTodai,
   careerSalaryFreeter,
-  salaryOption,
   careerSalaryKeiyaku,
   careerSalaryLow,
   careerSalaryMiddle,
   careerSalaryHigh,
   careerSalaryEntrepreneur,
+  earlyTwenties,
+  lateTwenties,
+  earlyThirties,
+  lateThirties,
+  forties,
+  fifty
 } from "./options.js";
 
 const startBtn = document.getElementById("start");
@@ -61,13 +66,13 @@ function renewOptions() {
   manOption1 = generateMan();
   manOption2 = generateMan();
 
-  option1.innerHTML = `<p>${manOption1[0]}</p>
+  option1.innerHTML = `<img src="${manOption1[0]}" />
   <p>${manOption1[1]}cm</p>
   <p>${manOption1[2]}歳</p>
   <p>${manOption1[3]}卒</p>
   <p>${manOption1[4]}万円/年</p>
   `;
-  option2.innerHTML = `<p>${manOption2[0]}</p>
+  option2.innerHTML = `<img src="${manOption2[0]}" />
   <p>${manOption2[1]}cm</p>
   <p>${manOption2[2]}歳</p>
   <p>${manOption2[3]}卒</p>
@@ -84,6 +89,26 @@ function generateMan() {
     randomer(schoolOption),
     0,
   ];
+
+  if (Math.floor(manArr[2]/5) === 4) {
+    // 20代前半
+    manArr[0] = randomer(earlyTwenties);
+  }else if(Math.floor(manArr[2]/5) === 5){
+    // 20代後半
+    manArr[0] = randomer(lateTwenties)
+  }else if(Math.floor(manArr[2]/5) === 6){
+    // 30代前半
+    manArr[0] = randomer(earlyThirties)
+  }else if(Math.floor(manArr[2]/5) === 7){
+    // 30代後半
+    manArr[0] = randomer(lateThirties)
+  }else if(Math.floor(manArr[2]/5) === 8){
+    // 40代
+    manArr[0] = randomer(forties)
+  }else if(Math.floor(manArr[2]/5) === 10){
+    // 50歳
+    manArr[0] = randomer(fifty)
+  }
 
   let career;
   if (manArr[3] === "日東駒専") {
@@ -135,3 +160,6 @@ function finish() {
   window.location.href = "./result.html"
 }
 
+
+
+console.log(Math.floor(33/5));

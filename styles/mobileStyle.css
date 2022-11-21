@@ -47,10 +47,8 @@ main{
 
 .option{
     width: 40vw;
-    height: 210px;
+    height: 285px;
     margin: 10px;
-    padding-top: 10px;
-    padding-left: 10px;
     border: 0px solid black;
     border-radius: 25px;
     /* background-color: rgb(186, 6, 6); */
@@ -60,6 +58,18 @@ main{
     font-size: 14px;
     font-weight: 500;
     box-shadow: 2px 2px 4px 1px rgb(209, 209, 209);
+}
+.option > img{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 130px;
+    height: 150px;
+    object-fit: cover;
+    margin: auto;
+}
+.option > p{
+    margin: 8.5px auto;
 }
 .option:hover{
     cursor: pointer;

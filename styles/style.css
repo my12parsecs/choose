@@ -40,11 +40,14 @@ body{
 
 
 .option{
+    display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
     width: 210px;
-    height: 210px;
+    height: 380px;
+    padding-bottom: 20px;
     margin: 20px;
-    padding-top: 10px;
-    padding-left: 10px;
     border: 0px solid black;
     border-radius: 25px;
     /* background-color: rgb(186, 6, 6); */
@@ -54,10 +57,21 @@ body{
     font-size: 14px;
     font-weight: 500;
 }
+.option > img{
+    margin-top: 0px;
+    margin-bottom: 15px;
+    border-radius: 15px;
+    width: 175px;
+    height: 200px;
+    object-fit: cover;
+    margin: auto;
+}
+.option > p{
+    margin: 8px auto;
+}
 .option:hover{
     cursor: pointer;
 }
-
 
 
 

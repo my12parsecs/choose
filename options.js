@@ -278,33 +278,32 @@ const careerSalaryEntrepreneur = {
 
 
 
+const earlyTwenties = {
+  "https://kyun2-girls.com/file/parts/I0003617/2be9b1955eddac210cd47bbf68cb9121.jpg": 100
+}
+const lateTwenties = {
+  "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000072848.jpg": 100
+}
+const earlyThirties = {
+  "https://rankingoo.net/wp-content/uploads/2021/04/01111309/09fc254f474ddaa24652cb65eac599aa.jpg?t=20220308": 100
+}
+const lateThirties = {
+  "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000021351.jpg": 100
+}
+const forties = {
+  "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000051683.jpg?pos=4": 100
+}
+const fifty = {
+  "https://ranking.xgoo.jp/tool/images/talent/2000001483.jpg": 100
+}
 
 
 
 
-const salaryOption = {
-  200: 3,
-  300: 5,
-  400: 6,
-  500: 7,
-  600: 10,
-  700: 10,
-  800: 10,
-  900: 14,
-  1000: 13,
-  1100: 12,
-  1200: 11,
-  1300: 10,
-  1400: 9,
-  1500: 8,
-  2000: 7,
-  2500: 6,
-  3000: 5,
-  4000: 4,
-  5000: 3,
-  8000: 2,
-  1: 1,
-};
+
+
+
+
 
 
 
@@ -327,5 +326,10 @@ export {
   careerSalaryMiddle,
   careerSalaryHigh,
   careerSalaryEntrepreneur,
-  salaryOption,
+  earlyTwenties,
+  lateTwenties,
+  earlyThirties,
+  lateThirties,
+  forties,
+  fifty
 };
