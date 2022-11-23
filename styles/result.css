@@ -32,11 +32,13 @@ body{
 
 
 .back-button{
-    width: 90px;
+    width: 100px;
     height: 50px;
     display: flex;
     margin: auto;
     margin-top: 40px;
+    padding-right: 2px;
+    text-align: center;
     align-items: center;
     justify-content: center;
     background-color: black;
