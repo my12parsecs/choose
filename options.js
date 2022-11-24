@@ -302,7 +302,7 @@ const forties = {
   "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000051683.jpg?pos=4": 100
 }
 
-// 阿部寛
+// 阿部寛、唐沢寿明
 const fifty = {
   "https://ranking.xgoo.jp/tool/images/talent/2000001483.jpg": 100
 }
