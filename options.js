@@ -277,22 +277,32 @@ const careerSalaryEntrepreneur = {
 }
 
 
-
+// 中川大志
 const earlyTwenties = {
   "https://kyun2-girls.com/file/parts/I0003617/2be9b1955eddac210cd47bbf68cb9121.jpg": 100
 }
+
+// 伊藤健太郎、北村匠海、新田真剣佑、山崎賢人、神木隆之介、竹内涼真
 const lateTwenties = {
   "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000072848.jpg": 100
 }
+
+// 　坂口健太郎、岡田将生、千葉雄大、松坂桃李
 const earlyThirties = {
   "https://rankingoo.net/wp-content/uploads/2021/04/01111309/09fc254f474ddaa24652cb65eac599aa.jpg?t=20220308": 100
 }
+
+// 田中圭、山田孝之
 const lateThirties = {
   "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000021351.jpg": 100
 }
+
+// 小栗旬、向井理、妻夫木聡、DAIGO
 const forties = {
   "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000051683.jpg?pos=4": 100
 }
+
+// 
 const fifty = {
   "https://ranking.xgoo.jp/tool/images/talent/2000001483.jpg": 100
 }
