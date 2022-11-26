@@ -36,6 +36,8 @@ let resultRecord = [];
 // やること
 // 結果の出し方どうする？　各要素の平均、要素比較プラマイ、　最終的には他の人のも
 
+// 芸能人の顔？いらすとや？無名人の顔？
+
 // local storageで結果をresultページに送る
 
 startBtn.addEventListener("click", () => {

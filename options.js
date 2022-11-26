@@ -294,22 +294,30 @@ const lateTwenties = {
 
 // 　坂口健太郎、岡田将生、千葉雄大、松坂桃李
 const earlyThirties = {
-  "https://rankingoo.net/wp-content/uploads/2021/04/01111309/09fc254f474ddaa24652cb65eac599aa.jpg?t=20220308": 100
+  "https://tristone.co.jp/actors/img/sakaguchi350.jpg": 25,
+  "https://cdn.stardust.co.jp/wp-content/uploads/2022/05/okadamasaki_sen01.jpg": 25,
+  "https://www.japanmusic.jp/wp-content/uploads/2020/10/%E5%8D%83%E8%91%89%E5%AE%A3%E6%9D%90%E9%BB%92-scaled.jpg": 25,
+  "https://topcoat.co.jp/s3/skiyaki/uploads/artist_photo/image/10318/5e840b633dd40.jpg": 25,
 }
 
 // 田中圭、山田孝之
 const lateThirties = {
-  "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000021351.jpg": 100
+  "https://ogre.natalie.mu/artist/48196/20191017/TanakaKei_art201910.jpg?imwidth=640&imdensity=1": 50,
+  "https://thetv.jp/i/tl/000/0258/0000258788_r.jpg?w=646": 50,
 }
 
 // 小栗旬、向井理、妻夫木聡、DAIGO
 const forties = {
-  "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000051683.jpg?pos=4": 100
+  "https://gingerweb.jp/wp-content/uploads/2020/10/2318414728010113d6df3d435e0d16dajpeg.jpg": 25,
+  "https://c799eb2b0cad47596bf7b1e050e83426.cdnext.stream.ne.jp/img/article/000/304/066/7550ae9ba8a82f9c8e61d448ea0c90ee20220418111323961.jpg": 25,
+  "https://www.horipro.co.jp/wp-content/uploads/sites/104/2019/07/tsumabuki201804.jpg": 25,
+  "https://numero.jp/wp-content/uploads/2016/09/b82337f230775313c26fca4365b63b11.jpg": 25
 }
 
 // 阿部寛、唐沢寿明
 const fifty = {
-  "https://ranking.xgoo.jp/tool/images/talent/2000001483.jpg": 100
+  "https://moviewalker.jp/api/resizeimage/person/cc/40/cc40485ea46d3b46b47a1579486d5df5.jpg?w=690": 50,
+  "https://thetv.jp/i/tl/000/0000/0000000547_r.jpg": 50,
 }
 
 
