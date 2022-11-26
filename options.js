@@ -279,12 +279,17 @@ const careerSalaryEntrepreneur = {
 
 // 中川大志
 const earlyTwenties = {
-  "https://kyun2-girls.com/file/parts/I0003617/2be9b1955eddac210cd47bbf68cb9121.jpg": 100
+  "https://cdn.stardust.co.jp/wp-content/uploads/2022/05/nakagawataishi_sen01.jpg": 100
 }
 
 // 伊藤健太郎、北村匠海、新田真剣佑、山崎賢人、神木隆之介、竹内涼真
 const lateTwenties = {
-  "https://ranking.xgoo.jp/image_proxy/smartcrop/w_200_h_200/tool/images/talent/2000072848.jpg": 100
+  "https://www.image-enter.co.jp/imenWP/wp-content/uploads/2021/03/0210_forWEB-e1625021465650.jpg": 17,
+  "https://cdn.stardust.co.jp/wp-content/uploads/2022/05/kitamuratakumi_sen01-367x550.jpg": 17,
+  "https://ogre.natalie.mu/artist/102648/20200519/aratamackenyu_art_201908.jpg?imwidth=640&imdensity=1": 17,
+  "https://ogre.natalie.mu/artist/62456/20160209/yamazakikento_201509.jpg?imwidth=640&imdensity=1": 17,
+  "https://co-lavo.co.jp/wp/wp-content/themes/colavo_2022/images/prof_photo_kamiki.jpg": 17,
+  "https://www.horipro.co.jp/wp-content/uploads/sites/127/2022/11/S__278372356.jpg": 15
 }
 
 // 　坂口健太郎、岡田将生、千葉雄大、松坂桃李
