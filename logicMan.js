@@ -69,16 +69,20 @@ function renewOptions() {
   manOption2 = generateMan();
 
   option1.innerHTML = `<img src="${manOption1[0]}" />
-  <p>${manOption1[1]}cm</p>
-  <p>${manOption1[2]}歳</p>
-  <p>${manOption1[3]}卒</p>
-  <p>${manOption1[4]}万円/年</p>
+  <div class="option-detail">
+    <p>${manOption1[1]}cm</p>
+    <p>${manOption1[2]}歳</p>
+    <p>${manOption1[3]}卒</p>
+    <p>${manOption1[4]}万円/年</p>
+  </div>
   `;
   option2.innerHTML = `<img src="${manOption2[0]}" />
-  <p>${manOption2[1]}cm</p>
-  <p>${manOption2[2]}歳</p>
-  <p>${manOption2[3]}卒</p>
-  <p>${manOption2[4]}万円/年</p>
+  <div class="option-detail">
+    <p>${manOption2[1]}cm</p>
+    <p>${manOption2[2]}歳</p>
+    <p>${manOption2[3]}卒</p>
+    <p>${manOption2[4]}万円/年</p>
+  </div>
   `;
 }
 

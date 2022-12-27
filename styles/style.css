@@ -40,6 +40,26 @@ body{
 
 
 .option{
+    /* display: flex;
+    flex-direction: column;
+    margin: auto;
+    text-align: center;
+    width: 200px;
+    height: 410px;
+    padding: 0;
+    margin: 20px;
+    border: 0px solid black;
+    border-radius: 25px;
+    background-color: rgb(29, 25, 25);
+    color: white;
+    text-align: center;
+    font-size: 16px;
+    font-weight: 500; */
+}
+.option > img{
+    max-width: 100px;
+}
+.option-detail{
     display: flex;
     flex-direction: column;
     margin: auto;
@@ -56,16 +76,6 @@ body{
     text-align: center;
     font-size: 16px;
     font-weight: 500;
-}
-.option > img{
-    margin-bottom: 10px;
-    border-radius: 25px 25px 0px 0px;
-    /* width: 175px; */
-    width: 200px;
-    /* height: 200px; */
-    height: 240px;
-    object-fit: cover;
-    object-position: 50% 0%;
 }
 .option > p{
     margin: 8px auto;
